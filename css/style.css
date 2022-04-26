@@ -1,0 +1,51 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+     height: 100vh;
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     align-items: center;
+}
+
+img {
+     margin: 0 auto;
+     max-width: 40rem;
+     height: auto;
+}
+
+a,
+img {
+     text-align: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
