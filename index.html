@@ -4,18 +4,214 @@
     	<meta charset="utf-8">
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Jesse Ranon</title>
-
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/c7867bb742.js" crossorigin="anonymous"></script>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+	<body class="flex">
 		
-		<img src="img/icons/work-in-progress.png" alt="Work in Progress">
-		<a href="https://www.flaticon.com/free-icons/work-in-progress" title="work in progress icons">Work in progress icons created by Freepik - Flaticon</a>
+		<header class="container bio-container flex center">
+			<!-- THIS IS WHERE THE NAME AND BLURB GO -->
+			<div class="bio flex flex-vert space-btn full-pad">
+				<div class="flex flex-vert">
+					<div>
+						<h1>Jesse Ranon</h1>
+						<h2>Software Engineer at 100Devs</h2>
+						<p class="about-blurb">I build web sites and web apps for individuals and small businesses.  Skilled in JavaScript and Full-Stack Development (MERN Stack).  Prior experience in accounting, finance, and IT.  I love to code and am ready to take my skills to the next level as part of an organization.
+						</p>
+					</div>
+					
+					<nav>
+						<ul class="flex flex-vert nav-links">
+							<li>
+								<a class="nav-link nav-link-active" href="#projects">
+									<span>01</span><span class="nav-dash"></span><span>Projects</span>
+								</a>
+							</li>
+							<li>
+								<a class="nav-link" href="#client-sites">
+									<span>02</span><span class="nav-dash"></span><span>Client Sites</span>
+								</a>
+							</li>
+							<li>
+								<a class="nav-link" href="#fun-stuff">
+									<span>03</span><span class="nav-dash"></span><span>Fun Stuff</span>
+								</a>
+							</li>
+							<li>
+								<a class="nav-link" href="#contact">
+									<span>04</span><span class="nav-dash"></span><span>Contact</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<section class="social-container static static-bottom flex flex-horizontal">
+					<div class="logo-container"> <!-- HEADSHOT -->
+						<img src="img/logo/logo500.png" alt="logo">
+					</div>
+					<ul class="socials flex flex-horizontal"> <!-- SOCIAL MEDIA LINKS -->
+						<li>
+							<a href="#" target="_blank">
+								<i class="fa-brands fa-github"></i>
+								<span>GitHub</span>
+								<i class="fa-solid fa-up-right-from-square"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<i class="fa-brands fa-linkedin"></i>
+								<span>LinkedIn</span>
+								<i class="fa-solid fa-up-right-from-square"></i>
+							</a>
+						</li>
+					</ul>
+				</section>
+			</div>
+
+		</header>
+		<section class="container project-container flex flex-vert full-pad">
+			<!-- THIS IS WHERE THE WORKS GO -->
+			<section id="projects" class="projects flex flex-vert">
+				<!-- SITE SAMPLES -->
+				<h2 class="sub-header">Projects</h2>
+				<div class="project-list flex flex-vert">
+					<article id="vegas-bartender" class="project">
+						<p class="project-header">HTML / CSS / JavaScript</p>
+						<h3 class="project-name">The Vegas Bartender's Pocket Reference</h3>
+						<p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum.</p>
+						<ul class="project-links flex flex-horizontal">
+							<li>
+								<a href="https://vegasbartenderreference.netlify.app" target="_blank"><i class="fa-solid fa-laptop"></i> <span>View Live</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+							<li>
+								<a href="https://github.com/jesseranon/bartender-reference" target="_blank"><i class="fa-solid fa-laptop-code"></i> <span>View Code</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+						</ul>
+					</article>
+					<article class="project">
+						<p class="project-header">HTML / CSS / JavaScript</p>
+						<h3 class="project-name">Southwest Astronomy Society APOD Web App</h3>
+						<p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum.</p>
+						<ul class="project-links flex flex-horizontal">
+							<li>
+								<a href="#" target="_blank"><i class="fa-solid fa-laptop"></i> <span>Coming Soon!</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+							<li>
+								<a href="#" target="_blank"><i class="fa-solid fa-laptop-code"></i> <span>Coming Soon!</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+						</ul>
+					</article>
+					
+				</div>
+			</section>
+
+			<section id="client-sites" class="projects flex flex-vert">
+				<!-- CLIENT SITES -->
+				<h2 class="sub-header">Client Sites</h2>
+				<div class="project-list flex flex-vert">
+					<article class="project">
+						<p class="project-header">HTML / CSS / JavaScript</p>
+						<h3 class="project-name">DJ Miss Joy</h3>
+						<p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum.</p>
+						<ul class="project-links flex flex-horizontal">
+							<li>
+								<a href="https://www.djmissjoy.com/" target="_blank"><i class="fa-solid fa-laptop"></i> <span>View Live</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+						</ul>
+					</article>
+					<article class="project">
+						<p class="project-header">HTML / CSS / JavaScript</p>
+						<h3 class="project-name">Life Is Sweet Bakery</h3>
+						<p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum.</p>
+						<ul class="project-links flex flex-horizontal">
+							<li>
+								<a href="https://lifeissweetbakery.netlify.app/" target="_blank"><i class="fa-solid fa-laptop"></i> <span>View Live</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+						</ul>
+					</article>
+					<article class="project">
+						<p class="project-header">HTML / CSS / JavaScript</p>
+						<h3 class="project-name">Yōkoso Sushi</h3>
+						<p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum.</p>
+						<ul class="project-links flex flex-horizontal">
+							<li>
+								<a href="https://yokososushi.netlify.app/" target="_blank"><i class="fa-solid fa-laptop"></i> <span>View Live</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</section>
+
+			<section id="fun-stuff" class="projects flex flex-vert">
+				<!-- FUN STUFF -->
+				<h2 class="sub-header">Fun Stuff</h2>
+				<div class="project-list flex flex-vert">
+					<article class="project fun-stuff">
+						<p class="project-header">HTML / CSS / JavaScript</p>
+						<h3 class="project-name">Street Fighter II Match Maker</h3>
+						<p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum.</p>
+						<ul class="project-links flex flex-horizontal">
+							<li>
+								<a href="https://efficacious-sudden-smoke.glitch.me/" target="_blank"><i class="fa-solid fa-user-astronaut"></i> <span>View Live</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+							<li>
+								<a href="https://github.com/jesseranon/SFII-video-matchmaker" target="_blank"><i class="fa-solid fa-laptop-code"></i> <span>View Code</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+						</ul>
+					</article>
+					<article class="project fun-stuff">
+						<p class="project-header">Python</p>
+						<h3 class="project-name">Raspberry Pi Author Clock</h3>
+						<p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dolorum.</p>
+						<ul class="project-links flex flex-horizontal">
+							<li>
+								<a href="#" target="_blank"><i class="fa-solid fa-user-astronaut"></i> <span>Blog Coming Soon</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+							<li>
+								<a href="https://github.com/jesseranon/author-clock" target="_blank"><i class="fa-solid fa-laptop-code"></i> <span>View Code</span> <i class="fa-solid fa-up-right-from-square"></i></a>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</section>
+
+			<section id="contact" class="projects flex flex-vert">
+				<!-- CONTACT -->
+				<h2 class="sub-header">Contact</h2>
+				<form name="contact" method="POST" class="project-list" data-netlify="true">
+					<div class="flex flex-vert">
+						<input type="text" name="name" id="name" placeholder="Your Name">
+						<input type="text" name="email" id="email" placeholder="Your Email Address">
+						<textarea name="message" id="message" name="message" cols="30" rows="4" placeholder="Your Message"></textarea>
+						<ul class="form-actions flex flex-horizontal">
+							<li>
+								<button type="submit">
+									Send Message
+								</button>
+							</li>
+							<li>
+								<button type="reset">
+									Reset
+								</button>
+							</li>
+						</ul>
+					</div>
+				</form>
+			</section>
+
+			<p class="attribution">&copy; Jesse Ranon</p>
+		</section>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
