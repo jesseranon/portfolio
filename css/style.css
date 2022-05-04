@@ -87,6 +87,7 @@ h2 {
      height: 1px;
      background-color: var(--inactive-nav-link-color);
      margin: 2.5px 15px;
+     transition: 0.3s;
 }
 
 .nav-link span {
