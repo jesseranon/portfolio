@@ -299,12 +299,6 @@ button {
      cursor: pointer;
 }
 
-/* form input {
-     height: 2rem;
-} */
-
-
-
 /******************************************
 /* FORM END
 /*******************************************/
@@ -331,7 +325,6 @@ button {
 
      .bio {
           height: 95%;
-          /* width: 100%; */
           max-width: 18rem;
           position: fixed;
           top: 40px;
@@ -345,10 +338,6 @@ button {
      .social-container {
           margin-top: 72px;
      }
-
-     /* .social-container {
-          flex-wrap: wrap;
-     } */
 
      .socials {
           gap: 1rem;
