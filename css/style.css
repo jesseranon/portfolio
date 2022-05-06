@@ -90,19 +90,19 @@ h2 {
      transition: 0.3s;
 }
 
+.nav-link-active .nav-dash {
+     height: 2px;
+     width: 3rem;
+     background-color: var(--active-nav-link-color);
+     transition: 0.3s;
+}
+
 .nav-link span {
      color: var(--inactive-nav-link-color);
 }
 
 .nav-link-active span {
      color: var(--active-nav-link-color);
-}
-
-.nav-link-active .nav-dash {
-     height: 2px;
-     width: 3rem;
-     background-color: var(--active-nav-link-color);
-     transition: 0.3s;
 }
 
 .sub-header {
@@ -412,8 +412,4 @@ button {
 
 /******************************************
 /* MEDIA QUERIES END
-/*******************************************/
-
-/******************************************
-/* KEYFRAMES
 /*******************************************/
