@@ -28,6 +28,7 @@
      --default-border-radius: 1px;
      --inactive-nav-link-color: gray;
      --active-nav-link-color: black;
+     font-size: 20px;
 }
 
 html {
