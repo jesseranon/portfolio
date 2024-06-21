@@ -204,12 +204,13 @@
 			<section id="contact" class="projects flex flex-vert">
 				<!-- CONTACT -->
 				<h2 class="sub-header">Contact</h2>
-				<form name="contact" method="POST" class="project-list" data-netlify="true">
+				<form name="contact" method="POST" class="project-list" data-netlify-recaptcha="true" data-netlify="true">
 					<div class="flex flex-vert">
 						<input type="text" name="name" id="name" placeholder="Your Name" required>
 						<input type="text" name="email" id="email" placeholder="Your Email Address" required>
 						<textarea name="message" id="message" name="message" cols="30" rows="4" placeholder="Your Message" required></textarea>
 						<ul class="form-actions flex flex-horizontal">
+							<div data-netlify-recaptcha="true></div>
 							<li>
 								<button type="submit">
 									Send Message
